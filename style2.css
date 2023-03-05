@@ -48,15 +48,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-.form{
-    display: block;
-    margin: auto;   
-}
+
 .title{
     color: var(--text-color);
     text-align: center;
-    font-size: larger;   
-    
+    font-size: medium;  
+    margin-left: 33%; 
 }
 
 .container{
@@ -64,12 +61,16 @@ body{
     width: 80%;
     height: 80vh;
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.226);
+   
 }
 .login-button{
-    display: flex;
-    justify-content: center; 
+    display: block;
     padding: 20px;  
-    align-items: center;    
+    
+    padding: 20px;  
+    margin-left: 45%;
+    
+        
 }
 .login-button button{
     padding: 5px;
@@ -85,7 +86,14 @@ body{
 .inputs{
     padding: 12px;
     color: var(--text-color);
-    display: block;   
+    display: flex;   
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.form{
+    margin-left: 20px;
 }
 .inputs input{
     padding: 8px;
@@ -95,7 +103,7 @@ body{
 }
 .inputs label{
     display: block;
-    padding: 2px;
+    padding: 6px;
     font-weight: 400;
     font-size: small;
 
@@ -116,6 +124,7 @@ body{
     left: 0;
     animation: slide-back 0.4s;
     
+    
 }
 .mode button:hover{
     outline: 8px solid var(--highlight-color);
@@ -130,6 +139,7 @@ body{
     width: 64px;
     margin: 4px auto;
     margin-bottom: 24px;  
+    margin-left: 55%;
 }
 .mode span{
     display: block;
@@ -137,6 +147,7 @@ body{
     height: 24px;
     background-color: rgba(94, 103, 110, 0.253);
     border-radius: 15px;
+    
 }
 
 /*mode*/
