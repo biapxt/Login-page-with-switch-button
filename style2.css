@@ -148,6 +148,16 @@ body{
     border-radius: 15px;
     
 }
+.link{
+    color: var(--text-color);
+    font-size: small;
+    text-align: center;
+    margin-left: 33%;
+}
+.link a{
+    color: var(--text-color);
+    text-decoration:underline;
+}
 
 /*mode*/
 @keyframes slide-in{

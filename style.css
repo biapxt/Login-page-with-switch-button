@@ -138,6 +138,17 @@ body{
     background-color: rgba(94, 103, 110, 0.253);
     border-radius: 15px;
 }
+.link{
+    color: var(--text-color);
+    font-size: small;
+    text-align: center;
+    
+}
+.link a{
+    color: var(--text-color);
+    text-decoration:underline;
+}
+
 
 /*mode*/
 @keyframes slide-in{
